@@ -1,0 +1,12 @@
+node_modules
+dist
+.vercel
+.env
+.env.*
+npm-debug.log*
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.playwright-mcp
+signal-atlas-*.png
+vite-dev*.log
