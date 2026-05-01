@@ -16,7 +16,7 @@ import "./styles.css";
 type Audience = "builders" | "educators" | "operators" | "artists";
 type Artifact = "live demo" | "agent workflow" | "image story" | "toolchain";
 
-const heroImage = "/devday-workbench.png";
+const heroImage = `${import.meta.env.BASE_URL}devday-workbench.png`;
 const contestPostUrl = "https://x.com/OpenAI/status/2049535650626785334";
 const devdayUrl = "https://openai.com/index/devday-2026/";
 const hashtag = "#OpenAIDevDay2026";
